@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 lmbd = 10
 def f(t, u):
+    #
   return -lmbd * u
 def rk_2(a, b, n, u0):
   h = (b - a) / n

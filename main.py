@@ -4,7 +4,7 @@ r0 = 0.01
 z0 = -5.5
 phi0 = 0
 alpha = 0.39
-"""
+""""
 y1=phi,y2=r,y3=Z
 """
 def f1(t,y1,y2,y3):return ((-np.sin(y1)/y2)-y3/(alpha*alpha))
